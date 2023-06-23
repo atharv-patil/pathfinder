@@ -52,5 +52,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 - Pune Mahanagar Parivahan Mahamandal Ltd for providing the open transit data.
 - The haversine library for calculating distances between coordinates.
-
-Please note that this is a simplified README file, and you may need to provide more details, such as installation instructions, usage examples, and additional features, depending on the complexity and requirements of your project.
