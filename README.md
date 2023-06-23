@@ -14,8 +14,6 @@ To use PathFinder, follow the steps below:
    - pandas
    - numpy
    - haversine
-   - googletrans
-   - requests
    - folium
    - geopy
 3. Save the bus stop data in a file named "stops.txt" in the project directory.
