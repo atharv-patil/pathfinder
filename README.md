@@ -44,7 +44,10 @@ Route: [33884, 33589, 32994, 32868]
 ```
 
 ## Screenshots
-![Bus Route Map](screenshot.png)
+![image](https://github.com/atharv-patil/pathfinder/assets/83455141/22f88985-fa25-4403-b574-4ae1b7a4280f)
+![image](https://github.com/atharv-patil/pathfinder/assets/83455141/839decdc-a5c5-476e-8fb2-7f4c14cd4951)
+![image](https://github.com/atharv-patil/pathfinder/assets/83455141/5e249236-2d4e-4f38-9a69-411d05684bde)
+
 
 
 ## Acknowledgments
