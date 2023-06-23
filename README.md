@@ -1,8 +1,16 @@
 # PathFinder
+![image](https://github.com/atharv-patil/pathfinder/assets/83455141/1115ef28-74ad-43e0-aa36-2e67f8e36586)
 
 ## Description
-PathFinder is a Python application that utilizes the A* algorithm to find the optimal path between two points using bus stop coordinates provided by Pune Mahanagar Parivahan Mahamandal Ltd open transit data. It calculates the Euclidean distance between bus stops as the heuristic to guide the search for the shortest path.
+PathFinder is a Python application designed to provide efficient route planning for bus transportation using the A* algorithm. It leverages bus stop coordinates obtained from Pune Mahanagar Parivahan Mahamandal Ltd open transit data to calculate the optimal path between two points. By employing the Euclidean distance as a heuristic, PathFinder effectively guides the search for the shortest route.
 
+The application starts by loading the bus stop data from a file called "stops.txt" into a pandas DataFrame. It extracts the coordinates of each bus stop and organizes them into a list for further processing. A distance matrix is then generated using the haversine formula, which calculates the geographical distance between pairs of bus stops. This matrix is saved to a file named "DistanceMatrix.txt" for future reference.
+
+To find the optimal path, PathFinder applies the A* algorithm. It takes the specified start and end bus stops as input and performs a search in a graph-like structure created from the distance matrix. The algorithm intelligently explores the graph, considering both the distance to the goal and the cost incurred so far. Through a series of iterations, it gradually narrows down the search space until it identifies the most efficient route between the two points.
+
+Upon discovering the optimal path, PathFinder presents the results as a list of bus stops that form the route. Each stop is represented by a unique identifier. Additionally, the application visualizes the route on a map using the folium library. The bus stops along the path are marked as red circles, providing a clear and intuitive representation of the recommended route.
+
+PathFinder can be a valuable tool for transportation planners, commuters, and anyone involved in optimizing bus routes. By efficiently calculating the shortest path between bus stops, it can contribute to reducing travel time, improving efficiency, and enhancing the overall bus transportation experience.
 ## Usage
 To use PathFinder, follow the steps below:
 
