@@ -46,8 +46,6 @@ Route: [33884, 33589, 32994, 32868]
 ## Screenshots
 ![Bus Route Map](screenshot.png)
 
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 - Pune Mahanagar Parivahan Mahamandal Ltd for providing the open transit data.
