@@ -1,6 +1,9 @@
 # PathFinder
 <img src="https://github.com/atharv-patil/pathfinder/assets/83455141/563df622-0de2-4242-b47b-ec433bdafcdb"  width="300" height="300">
 
+## Collaborators
+Atharv Patil - [github.com/atharv-patil](https://github.com/atharv-patil)<br>
+Utkarsh Shukla - [github.com/utkarshukla7](https://github.com/utkarshukla7)
 ## Description
 
 PathFinder is a Python application designed to provide efficient route planning for bus transportation. By leveraging the A* algorithm and bus stop coordinates from Pune Mahanagar Parivahan Mahamandal Ltd open transit data, PathFinder calculates the optimal path between two points. The application extracts bus stop coordinates, generates a distance matrix using the haversine formula, and applies the A* algorithm to explore the graph-like structure created from the distance matrix. Through an iterative process, PathFinder intelligently narrows down the search space and identifies the most efficient route, considering both the distance to the goal and the cost incurred so far. The resulting route is presented as a list of bus stop identifiers, allowing transportation planners and commuters to optimize bus travel, reduce time, and enhance the overall efficiency of bus transportation.
